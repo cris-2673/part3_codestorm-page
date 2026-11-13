@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111014">
+  <meta name="description" content="CODESTORM: equipo de robótica, kit REV v0.3 y competencias FIRST.">
+  <title>CODESTORM | Robótica y FIRST</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio" aria-label="CODESTORM, inicio">
+      <span class="logo-mark" aria-hidden="true">C</span>
+      <span>CODESTORM</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+    <nav class="navigation" id="main-nav" aria-label="Navegación principal">
+      <a href="#kit">Kit REV</a>
+      <a href="#first">FIRST</a>
+      <a href="#redes">Redes sociales</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> EQUIPO DE ROBÓTICA</p>
+        <h1>Diseñamos.<br>Construimos <span class="accent">robots.</span></h1>
+        <p class="hero-text">Somos CODESTORM. Creamos robots, programamos soluciones y aprendemos en equipo.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#kit">Conoce el kit <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#first">Competencias FIRST</a>
+        </div>
+      </div>
+      <div class="robot-art" role="img" aria-label="Ilustración de un robot de competencia">
+        <div class="art-ring art-ring-one" aria-hidden="true"></div>
+        <div class="art-ring art-ring-two" aria-hidden="true"></div>
+        <svg class="robot-svg" viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="robot-fill" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#f0bfd7"/>
+              <stop offset="1" stop-color="#9d79ae"/>
+            </linearGradient>
+            <linearGradient id="panel-fill" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0" stop-color="#302834"/>
+              <stop offset="1" stop-color="#1b1920"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="210" cy="320" rx="134" ry="15" fill="#000" opacity=".3"/>
+          <g class="robot-float" stroke="#f1c4da" stroke-linejoin="round" stroke-width="3">
+            <path d="M92 235h236l-17 55H109z" fill="url(#panel-fill)"/>
+            <path d="M119 290h31v28h-31zm158 0h31v28h-31z" fill="#241f28"/>
+            <circle cx="132" cy="317" r="25" fill="#29232d"/>
+            <circle cx="293" cy="317" r="25" fill="#29232d"/>
+            <circle cx="132" cy="317" r="9" fill="url(#robot-fill)" stroke="none"/>
+            <circle cx="293" cy="317" r="9" fill="url(#robot-fill)" stroke="none"/>
+            <path d="M157 235v-40h107v40" fill="url(#panel-fill)"/>
+            <path d="M174 195v-20h73v20" fill="#3c303e"/>
+            <path d="M154 95h112l18 77H136z" fill="url(#panel-fill)"/>
+            <path d="M168 119h18v18h-18zm66 0h18v18h-18z" fill="url(#robot-fill)" stroke="none"/>
+            <path d="M184 153h53" fill="none" stroke-linecap="round"/>
+            <path d="M138 204l-33 42m177-42 33 42" fill="none" stroke-linecap="round" stroke-width="12"/>
+            <circle cx="105" cy="247" r="10" fill="url(#robot-fill)"/>
+            <circle cx="315" cy="247" r="10" fill="url(#robot-fill)"/>
+            <path d="M210 59v31m-12-20h24" fill="none" stroke-linecap="round"/>
+            <circle cx="210" cy="53" r="7" fill="url(#robot-fill)"/>
+          </g>
+          <path d="M182 257h56m-56 13h34" stroke="#f1c4da" stroke-linecap="round" stroke-width="3" opacity=".75"/>
+        </svg>
+        <span class="art-label">ROBÓTICA · CÓDIGO · EQUIPO</span>
+      </div>
+    </section>
+
+    <section class="section kit-section" id="kit">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / KIT REV v0.3</p>
+        <h2>Las piezas que <span class="accent">dan vida al robot.</span></h2>
+        <p>El kit permite construir la estructura del robot y controlar sus movimientos y sensores.</p>
+      </div>
+      <div class="kit-layout">
+        <aside class="kit-purpose reveal">
+          <span class="purpose-label">¿PARA QUÉ SIRVE?</span>
+          <p>Para diseñar, armar y programar robots que resuelven retos de competencia.</p>
+        </aside>
+        <div class="component-grid">
+          <article class="component-card reveal">
+            <span class="card-number">01</span>
+            <span class="component-symbol symbol-hub" aria-hidden="true"><i></i><i></i><i></i></span>
+            <h3>Control Hub</h3>
+            <p>Ejecuta el programa y conecta los dispositivos electrónicos.</p>
+          </article>
+          <article class="component-card reveal">
+            <span class="card-number">02</span>
+            <span class="component-symbol symbol-motor" aria-hidden="true"><i></i></span>
+            <h3>Motores</h3>
+            <p>Mueven las ruedas y otras partes del robot.</p>
+          </article>
+          <article class="component-card reveal">
+            <span class="card-number">03</span>
+            <span class="component-symbol symbol-servo" aria-hidden="true"><i></i></span>
+            <h3>Servos</h3>
+            <p>Controlan el giro de brazos y mecanismos.</p>
+          </article>
+          <article class="component-card reveal">
+            <span class="card-number">04</span>
+            <span class="component-symbol symbol-sensor" aria-hidden="true"><i></i></span>
+            <h3>Sensores</h3>
+            <p>Detectan el entorno y envían datos al robot.</p>
+          </article>
+          <article class="component-card reveal">
+            <span class="card-number">05</span>
+            <span class="component-symbol symbol-frame" aria-hidden="true"><i></i><i></i><i></i></span>
+            <h3>Estructura y ruedas</h3>
+            <p>Forman el chasis y permiten desplazarse.</p>
+          </article>
+          <article class="component-card reveal">
+            <span class="card-number">06</span>
+            <span class="component-symbol symbol-battery" aria-hidden="true"><i></i></span>
+            <h3>Batería y cables</h3>
+            <p>Alimentan y conectan los componentes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="first-section" id="first">
+      <div class="section section-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / COMPETENCIAS</p>
+          <h2>¿Qué son las competencias <span class="accent">FIRST?</span></h2>
+          <p>Retos de robótica que impulsan la ciencia, la tecnología y el trabajo en equipo.</p>
+        </div>
+        <div class="first-grid">
+          <article class="first-card reveal">
+            <span class="first-tag">FTC</span>
+            <h3>FIRST Tech Challenge</h3>
+            <p>Equipos de estudiantes diseñan, construyen y programan robots para completar un reto en una cancha.</p>
+          </article>
+          <article class="first-card first-card-highlight reveal">
+            <span class="first-tag">FGC</span>
+            <h3>FIRST Global Challenge</h3>
+            <p>Equipos de distintos países colaboran en una competencia internacional de robótica sobre desafíos globales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section social-section" id="redes">
+      <div class="social-copy reveal">
+        <p class="eyebrow">03 / CODESTORM</p>
+        <h2>Redes <span class="accent">sociales.</span></h2>
+        <p>Síguenos para ver nuestros proyectos y avances.</p>
+      </div>
+      <div class="social-links reveal">
+        <a class="social-link" href="https://www.tiktok.com/@codestorm_99907?is_from_webapp=1&amp;sender_device=pc" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon tiktok-icon" aria-hidden="true">♪</span>
+          <span><small>TIKTOK</small><strong>@codestorm_99907</strong></span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/ftc.codestorm_99907/" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon instagram-icon" aria-hidden="true"><i></i></span>
+          <span><small>INSTAGRAM</small><strong>@ftc.codestorm_99907</strong></span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#inicio"><span class="logo-mark" aria-hidden="true">C</span><span>CODESTORM</span></a>
+    <a href="#inicio">Volver al inicio ↑</a>
+  </footer>
+</body>
+</html>
